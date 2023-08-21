@@ -1,5 +1,4 @@
 pandas
 streamlit
 mysqlclient
-SQLAlchemy
 plotly-express
