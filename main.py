@@ -110,6 +110,7 @@ fig.update_layout(
     legend_title_text='Dia é útil?',
 )
 fig.update_xaxes(
+    title="Meses dos Anos",
     dtick="M1",
     tickformat="%b\n%Y"
 )
