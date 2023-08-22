@@ -98,7 +98,7 @@ select_fato2 = select_fato2.groupby('data_id').agg({'data_id':'first','Seguranç
 select_fato2['dia_ehdiautil'] = select_fato2['dia_ehdiautil'].astype(int)
 select_fato2['dia_ehdiautil'].replace(0 , 'Não', inplace=True)
 select_fato2['dia_ehdiautil'].replace(1 , 'Sim', inplace=True)
-st.dataframe(select_fato2)
+
 color_map = {
     'Sim': 'blue',   
     'Não': 'yellow'
