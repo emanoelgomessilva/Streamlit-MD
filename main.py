@@ -103,7 +103,7 @@ color_map = {
     'Sim': 'blue',   
     'Não': 'yellow'
 }
-fig = px.line(select_fato2, x="Meses dos Anos", y=nota_categoria, color='dia_ehdiautil',  
+fig = px.line(select_fato2, x="data_id", y=nota_categoria, color='dia_ehdiautil',  
               color_discrete_map=color_map,
             )
 fig.update_layout(
